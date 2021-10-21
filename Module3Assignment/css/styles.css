@@ -1,0 +1,45 @@
+.html{
+    margin:0;
+    width:100%;
+    box-sizing: border-box;
+    
+}
+.frame{
+    display: inline-block;
+    height: 1000px;
+}
+.navbar{
+    background-color: rgb(233, 119, 85);
+}
+
+.navbar h1{
+    color: BLACK;
+    font-size: 2rem;
+}
+
+.navbar-brand a,.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5rem;
+    padding:10px;
+    margin:0;
+    
+
+}
+.frame{
+    background-color: rgb(107, 192, 119);
+    padding:50px;
+    margin:0;
+    margin-bottom:30px;
+    
+}
+h3{
+        padding:10px;
+        margin:10px;
+}
+@media (min-width:768px) {
+    #navbarSupportedContent{
+        visibility: hidden;
+    }
+}
